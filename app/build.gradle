@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.duster.premium'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.duster.premium'
+        minSdk 23
+        targetSdk 29
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
